@@ -5,21 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peter Kohler's Personal Portfolio</title>
+  <title>Peter Kohler — Robotics / Mechatronics</title>
 
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,16 +17,9 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- Sidebar -->
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
@@ -47,13 +30,11 @@
 
         <div class="info-content">
           <h1 class="name" title="Peter Kohler">Peter Kohler</h1>
-
-          <p class="title">Robotics Engineer</p>
+          <p class="title">Robotics / Mechatronics Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
 
@@ -66,84 +47,62 @@
         <ul class="contacts-list">
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:pmkohler@gmail.com" class="contact-link">pmkohler@gmail.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Phone</p>
-
               <a href="tel:+14807727424" class="contact-link">+1 (480) 772-7424</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
-
               <time datetime="1990-07-03">July 03, 1990</time>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Broomfield, Colorado, USA</address>
             </div>
-
           </li>
 
         </ul>
 
         <div class="separator"></div>
 
-        <!-- <ul class="social-list">
+        <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://www.linkedin.com/in/peter-kohler-53679048/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://github.com/PeterMatthewKohler" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li> -->
 
         </ul>
 
@@ -155,22 +114,16 @@
 
 
 
-    <!--
-      - #main-content
-    -->
-
+    <!-- Main Content -->
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- Navbar -->
       <nav class="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
@@ -178,12 +131,8 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -197,303 +146,68 @@
 
 
 
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
+      <!-- About -->
+      <article class="about active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm a robotics engineer currently working in the field of autonomous off-road vehicles. I have a passion for all things
-            robotics and really enjoy working on projects that give me the freedom to explore new ideas and figure
-            out how to make them work.
+            I’m a robotics/mechatronics engineer focused on autonomy for heavy equipment — the messy intersection of software,
+            controls, sensors, and real machines.
           </p>
-
           <p>
-            My work involves developing and improving algorithms for controlling autonomous operation of construction and agriculture vehicles.
-            I leverage techniques from a wide variety of fields including control theory, state estimation, and localization. I've also personally
-            handled the hardware integration of all the components needed to perform autonomous operation of an excavator.
+            I’ve shipped work spanning remote control, motion safety systems, inverse kinematics + trajectory generation for full-size
+            excavators, and custom hardware/sensing solutions to make autonomy possible on machines that were never designed for it.
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">Focus areas</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="Autonomy icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
+                <h4 class="h4 service-item-title">Autonomy systems</h4>
+                <p class="service-item-text">Integration work across software + hardware for autonomous/remote-capable heavy machinery.</p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="Controls icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
+                <h4 class="h4 service-item-title">Controls + kinematics</h4>
+                <p class="service-item-text">Controller design/tuning, inverse kinematics, and trajectory generation for large manipulators.</p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="Hardware icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
+                <h4 class="h4 service-item-title">Mechatronics + sensing</h4>
+                <p class="service-item-text">Custom sensing, wiring/harnessing, drivers, and pragmatic “make it work on the machine” engineering.</p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-photo.svg" alt="Perception icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
+                <h4 class="h4 service-item-title">Perception (as needed)</h4>
+                <p class="service-item-text">Computer vision prototypes for real-world measurement problems (OpenCV, etc.).</p>
               </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
             </li>
 
           </ul>
@@ -506,10 +220,7 @@
 
 
 
-      <!--
-        - #RESUME
-      -->
-
+      <!-- Resume -->
       <article class="resume" data-page="resume">
 
         <header>
@@ -522,34 +233,21 @@
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
             <h3 class="h3">Education</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">Colorado School of Mines</h4>
-
               <span>2021 — 2023</span>
-
-              <p class="timeline-text">
-                MS in Robotics and Automation (GPA: 3.87/4.0)
-              </p>
-
+              <p class="timeline-text">M.S. Robotics and Automation (GPA: 3.87/4.0)</p>
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Arizona State University</h4>
-
+              <h4 class="h4 timeline-item-title">Arizona State University (Fulton School of Engineering)</h4>
               <span>2014 — 2017</span>
-
-              <p class="timeline-text">
-                BS in Electrical Engineering (Magna Cum Laude)
-              </p>
-
+              <p class="timeline-text">B.S. Electrical Engineering — Magna Cum Laude</p>
             </li>
 
           </ol>
@@ -560,81 +258,58 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
-
             <h3 class="h3">Experience</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Trimble — Robotics/Mechatronics Engineer</h4>
+              <span>Jun 2023 — Present</span>
 
-              <h4 class="h4 timeline-item-title">Trimble - Robotics Engineer</h4>
-
-              <span>2023 — Present</span>
-
-              <ol class="timeline-sublist">
-
-                <li class="timeline-subitem">
-
-                  <h5 class="h5 timeline-subitem-title">Trimble Autonomous Solutions</h5>
-
-                  <ul class="timeline-text">
-                    <li>- Wrote software and designed hardware architecture for machine interfaces to heavy duty compactor, excavator, and in-development robotics platform.</li>
-                    <li>- Refactoring and optimizations of old codebases to lessen compute resource consumption in Trimble’s autonomy stack.</li>
-                    <li>- Design/tuning of controllers and tech stack used in Trimble’s autonomous compactor.</li>
-                    <li>- Troubleshooting and general assistance on Trimble research project for providing localization services to GNSS denied autonomous vehicles.</li>
-                    <li>- Traveled overseas to successfully install, troubleshoot, and validate autonomy stack on new OEM partner’s compactor before in-house trade show.</li>
-                    <li>- Write hardware drivers for various components to enable autonomy/remote-control functions.</li>
-                    <li>- Implemented computer vision solution to estimate articulation angle on autonomous compactor.</li>
-                  </ul>
-
-                </li>
-
-                <li class="timeline-subitem">
-
-                  <h5 class="h5 timeline-subitem-title">Intelligent COntrols and Navigation Software (ICONS)</h5>
-
-                  <ul class="timeline-text">
-                    <li>- Implemented inverse kinematics and trajectory generation for autonomous control of full size excavator arm</li>
-                    <li>- Designed and built both hardware and software for custom prototype excavator cabin slew angle sensor</li>
-                    <li>- Implemented remote control of full size excavator</li>
-                    <li>- Integrated remote control functionality into autonomous trench digging workflow</li>
-                    <li>- Wrote software to provide interface between path planning and controls systems enabling full autonomous trench digging workflow</li>
-                    <li>- Worked with state estimation team on performance improvements used for autonomous control of farming tractors</li>
-                  </ul>
-
-                </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Trimble - Controls System Engineer Intern</h4>
-
-              <span>2022 — 2023</span>
-
+              <h5 class="h5 timeline-item-title" style="margin-top: 10px;">ICONS (Intelligent Controls and Navigation Software)</h5>
+              <p class="timeline-text"><em>Dec 2023 — Present</em></p>
               <ul class="timeline-text">
-                <li>- Resurrected and updated legacy code base to implement a fully functional remote-controlled Komatsu D51 Bulldozer.</li>
-                <li>- Performed hardware modifications to system architecture that allowed for implementation of new features</li>
-                <li>- Wrote and integrated new C++ ROS nodes and other functions into legacy code base that enabled new features including automated steering via remote control of the bulldozer</li>
-                <li>- Evaluated pull requests for other developer’s code commits</li>
-                <li>- Tested implementation in virtual environment and on 15-ton Komatsu D51 bulldozer</li>
-                <li>- Participated in Controls Team scrums to assist and coordinate with other developers</li>
+                <li>- Built a motion inhibition safety system for full-size excavators</li>
+                <li>- Implemented inverse kinematics and trajectory generation for autonomous control of a full-size excavator arm</li>
+                <li>- Designed and built a custom prototype cabin slew angle sensor (hardware + software)</li>
+                <li>- Implemented remote control of a full-size excavator</li>
+                <li>- Integrated remote control into an autonomous trench digging workflow</li>
+                <li>- Wrote interfaces between path planning and controls to enable an end-to-end trenching workflow</li>
               </ul>
 
+              <h5 class="h5 timeline-item-title" style="margin-top: 14px;">Trimble Autonomous Solutions</h5>
+              <p class="timeline-text"><em>Jun 2023 — Dec 2023</em></p>
+              <ul class="timeline-text">
+                <li>- Designed hardware architecture + wrote software for machine interfaces to a heavy-duty compactor and a robotics platform</li>
+                <li>- Refactored/optimized legacy codebases to reduce compute resource usage in Trimble’s autonomy stack</li>
+                <li>- Designed/tuned controllers and supporting tech stack used in autonomous compactor/excavator efforts</li>
+                <li>- Supported localization R&amp;D for GNSS-denied autonomous vehicles</li>
+                <li>- Traveled overseas to install/validate autonomy stack on an OEM partner’s compactor before a trade show</li>
+                <li>- Wrote hardware drivers to enable autonomy/remote-control functions</li>
+                <li>- Implemented a CV approach to estimate articulation angle on an autonomous compactor</li>
+              </ul>
             </li>
 
             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Trimble — Controls Systems Engineering Intern</h4>
+              <span>2022 — 2023</span>
+              <ul class="timeline-text">
+                <li>- Resurrected and modernized a legacy codebase to implement remote control of a Komatsu D51 bulldozer</li>
+                <li>- Performed hardware architecture modifications to enable new features</li>
+                <li>- Integrated new C++/ROS components into an existing stack</li>
+                <li>- Tested in simulation and on a 15-ton Komatsu D51 bulldozer</li>
+              </ul>
+            </li>
 
-              <h4 class="h4 timeline-item-title">Graduate Research Assistant, M3 Robotics Lab</h4>
-
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Colorado School of Mines — Graduate Research Assistant (M3 Robotics Lab)</h4>
               <span>2021 — 2022</span>
-
-              <p class="timeline-text">
-                - Performed literature reviews as well as initial evaluation of different camera systems for use in
-                autonomous mining operations.
-              </p>
-
+              <ul class="timeline-text">
+                <li>- Literature reviews and initial evaluation of camera systems for autonomy in mining operations</li>
+              </ul>
             </li>
 
           </ol>
@@ -643,99 +318,78 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">Skills</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
-
               <div class="title-wrapper">
                 <h5 class="h5">C++</h5>
-                <data value="80">80%</data>
+                <data value="85">85%</data>
               </div>
-
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="width: 85%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">MATLAB/Simulink</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">Python</h5>
+                <data value="60">60%</data>
               </div>
-
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
                 <h5 class="h5">ROS</h5>
                 <data value="75">75%</data>
               </div>
-
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">Control Theory</h5>
-                <data value="35">35%</data>
+                <h5 class="h5">MATLAB / Simulink</h5>
+                <data value="65">65%</data>
               </div>
-
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 35%;"></div>
+                <div class="skill-progress-fill" style="width: 65%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">State Estimation</h5>
-                <data value="30">30%</data>
+                <h5 class="h5">Controls + kinematics</h5>
+                <data value="60">60%</data>
               </div>
-
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 30%;"></div>
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">OpenCV</h5>
-                <data value="20">20%</data>
+                <h5 class="h5">Computer vision (OpenCV)</h5>
+                <data value="50">50%</data>
               </div>
-
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 20%;"></div>
+                <div class="skill-progress-fill" style="width: 50%;"></div>
               </div>
-
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
-                <h5 class="h5">CUDA</h5>
-                <data value="15">15%</data>
+                <h5 class="h5">Linux / Docker / Git</h5>
+                <data value="65">65%</data>
               </div>
-
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 15%;"></div>
+                <div class="skill-progress-fill" style="width: 65%;"></div>
               </div>
-
             </li>
 
           </ul>
@@ -748,233 +402,105 @@
 
 
 
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
+      <!-- Projects -->
+      <article class="portfolio" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
 
           <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Autonomy</button></li>
+            <li class="filter-item"><button data-filter-btn>Controls</button></li>
+            <li class="filter-item"><button data-filter-btn>Hardware</button></li>
+            <li class="filter-item"><button data-filter-btn>Perception</button></li>
           </ul>
 
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
               <div class="select-value" data-selecct-value>Select category</div>
-
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
-
             </button>
 
             <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Autonomy</button></li>
+              <li class="select-item"><button data-select-item>Controls</button></li>
+              <li class="select-item"><button data-select-item>Hardware</button></li>
+              <li class="select-item"><button data-select-item>Perception</button></li>
             </ul>
-
           </div>
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="autonomy">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="construct-outline"></ion-icon></div>
+                  <img src="./assets/images/project-7.png" alt="Autonomous trench digging" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">Autonomous trench digging workflow</h3>
+                <p class="project-category">Autonomy</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="controls">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="git-network-outline"></ion-icon></div>
+                  <img src="./assets/images/project-3.jpg" alt="Excavator IK and trajectory generation" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">Excavator IK + trajectory generation</h3>
+                <p class="project-category">Controls</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item active" data-filter-item data-category="hardware">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="hardware-chip-outline"></ion-icon></div>
+                  <img src="./assets/images/project-2.png" alt="Custom slew angle sensor" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
+                <h3 class="project-title">Custom slew angle sensor (prototype)</h3>
+                <p class="project-category">Hardware</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item active" data-filter-item data-category="autonomy">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="radio-outline"></ion-icon></div>
+                  <img src="./assets/images/project-8.jpg" alt="Remote control of heavy equipment" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
+                <h3 class="project-title">Remote control (excavator + dozer)</h3>
+                <p class="project-category">Autonomy</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item active" data-filter-item data-category="hardware">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
+                  <img src="./assets/images/project-6.png" alt="Motion inhibition safety system" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
+                <h3 class="project-title">Motion inhibition safety system</h3>
+                <p class="project-category">Hardware</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item active" data-filter-item data-category="perception">
               <a href="#">
-
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-1.jpg" alt="Articulation angle estimation" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">Articulation angle estimation (vision)</h3>
+                <p class="project-category">Perception</p>
               </a>
             </li>
 
@@ -984,10 +510,11 @@
 
       </article>
 
-      <!--
-        - #CONTACT
-      -->
 
+
+
+
+      <!-- Contact -->
       <article class="contact" data-page="contact">
 
         <header>
@@ -1003,26 +530,21 @@
         </section>
 
         <section class="contact-form">
+          <h3 class="h3 form-title">Get in touch</h3>
 
-          <h3 class="h3 form-title">Contact Form</h3>
+          <p style="margin-bottom: 16px; line-height: 1.6;">
+            The fastest way to reach me is email.
+          </p>
 
-          <form action="#" class="form" data-form>
+          <a class="form-btn" href="mailto:pmkohler@gmail.com?subject=Hello%20Peter" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+            <ion-icon name="mail-outline"></ion-icon>
+            <span>Email me</span>
+          </a>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
+          <div style="margin-top: 20px;">
+            <p style="margin-bottom: 8px;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/peter-kohler-53679048/" target="_blank" rel="noopener noreferrer">peter-kohler-53679048</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/PeterMatthewKohler" target="_blank" rel="noopener noreferrer">PeterMatthewKohler</a></p>
+          </div>
         </section>
 
       </article>
@@ -1031,19 +553,8 @@
 
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
